@@ -6,7 +6,6 @@
         "stylelint-config-origami-component": "^1.0.4"
     },
     "name": "@financial-times/o-spacing",
-    "private": true,
     "main": "main.js",
     "description": "Maintain consistent spaces across components and projects in accordance to our baseline grid and design guidelines.",
     "publishConfig": {
