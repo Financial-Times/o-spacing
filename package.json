@@ -1,10 +1,16 @@
 {
-	"devDependencies": {
-		"eslint": "^7.9.0",
-		"eslint-config-origami-component": "^2.1.0",
-		"origami-ci-tools": "^2.1.0",
-		"stylelint-config-origami-component": "^1.0.4"
-	},
-	"name": "o-spacing",
-	"private": true
+    "devDependencies": {
+        "eslint": "^7.9.0",
+        "eslint-config-origami-component": "^2.1.0",
+        "origami-ci-tools": "^2.1.0",
+        "stylelint-config-origami-component": "^1.0.4"
+    },
+    "name": "o-spacing",
+    "private": true,
+    "main": "main.js",
+    "description": "Maintain consistent spaces across components and projects in accordance to our baseline grid and design guidelines.",
+    "publishConfig": {
+        "registry": "http://localhost:4873"
+    },
+    "version": "3.0.0-0"
 }
