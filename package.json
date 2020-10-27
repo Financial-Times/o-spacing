@@ -1,23 +1,33 @@
 {
-    "name": "@financial-times/o-spacing",
-    "version": "100.0.0-8",
-    "description": "Maintain consistent spaces across components and projects in accordance to our baseline grid and design guidelines.",
-    "license": "MIT",
-    "type": "module",
-    "exports": {
-        ".": {
-            "browser": "./main.js"
-        }
-    },
-    "browser": "./main.js",
-    "types": "types",
-    "devDependencies": {
-        "eslint": "^7.9.0",
-        "eslint-config-origami-component": "^2.1.0",
-        "origami-ci-tools": "^2.1.0",
-        "stylelint-config-origami-component": "^1.0.4"
-    },
-    "publishConfig": {
-        "registry": "https://origami-npm-registry-prototype.herokuapp.com"
+  "name": "@financial-times/o-spacing",
+  "version": "100.0.0-10",
+  "description": "Maintain consistent spaces across components and projects in accordance to our baseline grid and design guidelines.",
+  "keywords": [],
+  "homepage": "https://github.com/Financial-Times/o-spacing#readme",
+  "bugs": {
+    "url": "https://github.com/Financial-Times/o-spacing/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Financial-Times/o-spacing.git"
+  },
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "exports": {
+    ".": {
+      "browser": "./main.js"
     }
+  },
+  "browser": "./main.js",
+  "types": "types",
+  "devDependencies": {
+    "eslint": "^7.9.0",
+    "eslint-config-origami-component": "^2.1.0",
+    "origami-ci-tools": "^2.1.0",
+    "stylelint-config-origami-component": "^1.0.4"
+  },
+  "publishConfig": {
+    "registry": "https://origami-npm-registry-prototype.herokuapp.com"
+  }
 }
