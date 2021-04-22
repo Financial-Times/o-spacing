@@ -1,15 +1,15 @@
-o-spacing
-=================
+# o-spacing
 
 A styling utility component to aid projects and component with consistent spacing, according to the baseline grid within the design guidelines.
 
-- [Usage](#usage)
-- [Spaces](#spaces)
-- [Markup](#markup)
-- [CSS Custom Properties](#css-custom-properties)
-- [Sass](#sass)
-- [Contact](#contact)
-- [Licence](#licence)
+-   [Usage](#usage)
+-   [Spaces](#spaces)
+-   [Markup](#markup)
+-   [CSS Custom Properties](#css-custom-properties)
+-   [Sass](#sass)
+-   [Migration](#migration)
+-   [Contact](#contact)
+-   [Licence](#licence)
 
 ## Usage
 
@@ -85,7 +85,7 @@ We recommend using a [named space](#named-spaces), but for more granular control
 
 ### Relative Units
 
-For compatibility with existing Origami projects, `o-spacing` outputs `px` values by default. To use relative `rem` values, set `$o-spacing-relative-units: true` before importing `o-spacing`.
+For compatibility with existing Origami projects, `o-spacing` outputs `px` values by default. To use relative `rem` values, set `$o-spacing-relative-units: true` before importing `@financial-times/o-spacing/main`.
 
 ```scss
 	$o-spacing-relative-units: true;
