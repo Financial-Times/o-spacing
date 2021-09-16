@@ -1,5 +1,11 @@
 # o-spacing
 
+***
+
+**This component has moved to the [Origami Component System](https://github.com/Financial-Times/origami).**
+
+***
+
 A styling utility component to aid projects and component with consistent spacing, according to the baseline grid within the design guidelines.
 
 -   [Usage](#usage)
